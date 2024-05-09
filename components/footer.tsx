@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {  PiFacebookLogoFill, PiInstagramLogo, PiInstagramLogoFill, PiLinkedinLogoFill, PiTwitterLogoFill, PiYoutubeLogoFill } from "react-icons/pi";
+import { PiInstagramLogoFill, PiYoutubeLogoFill } from "react-icons/pi";
 
 const Footer = () => {
     return ( 
@@ -14,13 +14,16 @@ const Footer = () => {
 />
 <br />
 <div className="flex space-x-2">
+<div className="flex">
 <PiInstagramLogoFill className="text-2xl text-gray-500" />
-<PiTwitterLogoFill className="text-2xl text-gray-500" />
-<PiFacebookLogoFill className="text-2xl text-gray-500" />
-<PiYoutubeLogoFill className="text-2xl text-gray-500" />
-<PiLinkedinLogoFill className="text-2xl text-gray-500" />
+Instagram
 </div>
 
+<div className="flex">
+<PiYoutubeLogoFill className="text-2xl text-gray-500" />
+YouTube
+</div>
+</div>
 </div>
 <br />
 <div>2024 © All Rights Reserved.</div>
